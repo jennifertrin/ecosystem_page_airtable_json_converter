@@ -50,7 +50,7 @@ def transform_record(record):
     
     if tags := fields.get('Tags'):
         if isinstance(tags, list) and tags:
-            transformed['tags'] = transform_tags(tags)
+            transformed['tags'] = tags
             
     if website := fields.get('Website'):
         transformed['website'] = website
