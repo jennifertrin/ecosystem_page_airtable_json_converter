@@ -40,12 +40,20 @@ AIRTABLE_TABLE_ID=your_table_id
    ```
 3. Create the `.env` file with your Airtable credentials
 
+## Setup virtual environment
+
+To set up the virtual environment:
+
+```bash
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+```
 ## Usage
 
 Run the script using:
 
 ```bash
-python transform_airtable.py
+python airtable_converter.py
 ```
 
 The script will:
